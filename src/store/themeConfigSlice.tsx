@@ -88,7 +88,7 @@ const themeConfigSlice = createSlice({
             state.sidebar = !state.sidebar;
         },
         setPageTitle(state, { payload }) {
-            document.title = `${payload} | Vangtat`;
+            document.title = `${payload} | CSTT`;
         },
         setPagination(state, { payload }) {
             payload = payload || state.layout;

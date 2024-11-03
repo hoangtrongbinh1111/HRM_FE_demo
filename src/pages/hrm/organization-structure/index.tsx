@@ -234,7 +234,7 @@ const OrganizationChart: React.FC<{}> = () => {
     return (
         <div>
             <h1 className='uppercase company-name'>{t('organization_structure')}</h1>
-            <h1 className='uppercase company-name'>VANGTAT MINING</h1>
+            <h1 className='uppercase company-name'>CSTT</h1>
             <div className="panel mt-6" style={{ overflowY: 'scroll' }}>
                 <OrgChart tree={data} NodeComponent={MyNodeComponent} />
             </div>
