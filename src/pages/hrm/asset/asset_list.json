@@ -1,0 +1,22 @@
+[
+	{
+		"id": 1,
+		"name": "CPU",
+		"quantity": 3
+	},
+	{
+		"id": 2,
+		"name": "Máy in",
+		"quantity": 3
+	},
+	{
+		"id": 3,
+		"name": "Laptop",
+		"quantity": 3
+	},
+	{
+		"id": 4,
+		"name": "Màn hình",
+		"quantity": 3
+	}
+]

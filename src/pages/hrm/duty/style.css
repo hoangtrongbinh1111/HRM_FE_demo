@@ -1,0 +1,4 @@
+/* CSS */
+  .custom_table tbody tr:hover {
+    background-color: #ff0000; /* Màu đỏ */
+}

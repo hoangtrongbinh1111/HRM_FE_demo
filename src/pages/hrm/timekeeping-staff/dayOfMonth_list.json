@@ -1,0 +1,50 @@
+[
+    {
+        "id": 0,
+        "dayWeek": "Thứ 2",
+        "dayMonth": "01/01/2024"
+    },
+    {
+        "id": 1,
+        "dayWeek": "Thứ 3",
+        "dayMonth": "02/01/2024"
+    },
+    {
+        "id": 2,
+        "dayWeek": "Thứ 4",
+        "dayMonth": "03/01/2024"
+    },
+    {
+        "id": 3,
+        "dayWeek": "Thứ 5",
+        "dayMonth": "04/01/2024"
+    },
+    {
+        "dayWeek": "Thứ 6",
+        "dayMonth": "05/01/2024"
+    },
+    {
+        "dayWeek": "Thứ 7",
+        "dayMonth": "06/01/2024"
+    },
+    {
+        "dayWeek": "Chủ nhật",
+        "dayMonth": "07/01/2024"
+    },
+    {
+        "dayWeek": "Thứ 2",
+        "dayMonth": "08/01/2024"
+    },
+    {
+        "dayWeek": "Thứ 3",
+        "dayMonth": "09/01/2024"
+    },
+    {
+        "dayWeek": "Thứ 4",
+        "dayMonth": "10/01/2024"
+    },
+    {
+        "dayWeek": "Thứ 5",
+        "dayMonth": "11/01/2024"
+    }
+]

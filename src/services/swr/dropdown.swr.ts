@@ -1,0 +1,28 @@
+import swr from '@core/swr';
+import callApi from '@core/call-api';
+import { getEndpoint } from '@core/utils';
+
+export const DropdownWarehouseTypes = (queries?: any) => swr(getEndpoint('/dropdown/warehouse-type', queries));
+export const DropdownProducts = (queries?: any) => swr(getEndpoint('/dropdown/product', queries));
+export const DropdownProductCategorys = (queries?: any) => swr(getEndpoint('/dropdown/product-category', queries));
+export const DropdownUnits = (queries?: any) => swr(getEndpoint('/dropdown/unit', queries));
+export const DropdownProviders = (queries?: any) => swr(getEndpoint('/dropdown/provider', queries));
+export const DropdownProposals = (queries?: any) => swr(getEndpoint('/dropdown/proposal', queries));
+export const DropdownWarehouses = (queries?: any) => swr(getEndpoint('/dropdown/warehouse', queries));
+export const DropdownOrder = (queries?: any) => swr(getEndpoint('/dropdown/order', queries));
+export const DropdownOrderType = (queries?: any) => swr(getEndpoint('/dropdown/order-type', queries));
+export const DropdownProposalType = (queries?: any) => swr(getEndpoint('/dropdown/proposal-type', queries));
+export const DropdownWarehousingType = (queries?: any) => swr(getEndpoint('/dropdown/warehousing-bill-type', queries));
+export const DropdownUsers = (queries?: any) => swr(getEndpoint('/dropdown/user', queries));
+export const DropdownUsers2 = (queries?: any) => swr(getEndpoint('/dropdown/user-v2', queries));
+export const DropdownRepair = (queries?: any) => swr(getEndpoint('/dropdown/repair-request', queries));
+export const DropdownDepartment = (queries?: any) => swr(getEndpoint('/dropdown/department', queries));
+export const DropdownInventory = (queries?: any) => swr(getEndpoint('/dropdown/inventory', queries));
+export const DropdownRole = (queries?: any) => swr(getEndpoint('/dropdown/role', queries));
+export const DropdownSuperior = (queries?: any) => swr(getEndpoint('/dropdown/superior', queries));
+export const DropdownPosition = (queries?: any) => swr(getEndpoint('/dropdown/position', queries));
+export const DropdownHeadOfDepartment = (queries?: any) => swr(getEndpoint('/dropdown/head-of-department', queries));
+export const DropdownShift = (queries?: any) => swr(getEndpoint('/dropdown/shift', queries));
+export const WarehousingBill = (queries?: any) => swr(getEndpoint('/dropdown/warehousing-bill', queries));
+export const DropdownRequestAdvancepayment = (queries?: any) => swr(getEndpoint('/dropdown/request-advance-payment', queries));
+export const DropdownGuestType = (queries?: any) => swr(getEndpoint('/dropdown/guest-type', queries));

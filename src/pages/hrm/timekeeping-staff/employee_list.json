@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name": "Bountafaibounnheuang",
+        "code": "CO01",
+        "status": "active"
+    },
+    {
+        "id": 2,
+        "name": "Khampa Sirt",
+        "code": "CO02",
+        "status": "active"
+    },
+    {
+        "id": 3,
+        "name": "Phu thone",
+        "code": "CO03",
+        "status": "active"
+    },
+    {
+        "id": 4,
+        "name": "Sun khăm",
+        "code": "CO04",
+        "status": "active"
+    },
+    {
+        "id": 5,
+        "name": "Suok Thi Da",
+        "code": "CO05",
+        "status": "active"
+    }
+]

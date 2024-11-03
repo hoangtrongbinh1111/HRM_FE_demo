@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "name": "Bountafaibounnheuang",
+        "code": "NV01",
+        "status": "active"
+    },
+    {
+        "id": 2,
+        "name": "Khampa Sirt",
+        "code": "NV02",
+        "status": "active"
+    },
+    {
+        "id": 3,
+        "name": "Phu thone",
+        "code": "NV03",
+        "status": "active"
+    },
+    {
+        "id": 4,
+        "name": "Sun khăm",
+        "code": "NV04",
+        "status": "active"
+    },
+    {
+        "id": 5,
+        "name": "Suok Thi Da",
+        "code": "NV05",
+        "status": "active"
+    },
+    {
+        "id": 6,
+        "name": "Bun Nam",
+        "code": "NV06",
+        "status": "active"
+    },
+    {
+        "id": 7,
+        "name": "Khăm phít",
+        "code": "NV07",
+        "status": "active"
+    },
+    {
+        "id": 8,
+        "name": "Su la Si",
+        "code": "NV08",
+        "status": "active"
+    },
+    {
+        "id": 9,
+        "name": "Khăm Kao",
+        "code": "NV09",
+        "status": "active"
+    },
+    {
+        "id": 10,
+        "name": "Pa Lin Nha",
+        "code": "NV10",
+        "status": "active"
+    }
+]

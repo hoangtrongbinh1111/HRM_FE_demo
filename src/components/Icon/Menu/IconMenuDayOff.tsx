@@ -1,0 +1,25 @@
+import { FC } from 'react';
+
+interface IconMenuDayOffProps {
+    className?: string;
+}
+
+const IconMenuDayOff: FC<IconMenuDayOffProps> = ({ className }) => {
+    return (
+
+
+<svg width="14" height="14" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
+<rect width="14" height="14" fill="url(#pattern_dayoff)"/>
+<defs>
+<pattern id="pattern_dayoff" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlinkHref="#image0_25_417" transform="scale(0.01)"/>
+</pattern>
+<image id="image0_25_417" width="100" height="100" xlinkHref="data:image/png;base64,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"/>
+</defs>
+</svg>
+
+
+    );
+};
+
+export default IconMenuDayOff;

@@ -1,0 +1,50 @@
+[
+    {
+        "id": 0,
+        "name": "Tổng giám đốc",
+        "code": "TGĐ",
+        "duty_group": "Quản lý",
+        "description": "Phụ trách chung",
+        "status": "active"
+    },
+    {
+        "id": 1,
+        "name": "Phó tổng giám đốc",
+        "code": "PTGĐ",
+        "duty_group": "Quản lý",
+        "description": "Phụ trách chung",
+        "status": "active"
+    },
+    {
+        "id": 2,
+        "name": "Phó giám đốc thường trực",
+        "code": "PGĐTT",
+        "duty_group": "Quản lý",
+        "description": "Phụ trách chung",
+        "status": "active"
+    },
+    {
+        "id": 3,
+        "name": "Phó tổng giám đốc điều hành",
+        "code": "PTGĐĐH",
+        "duty_group": "Quản lý",
+        "description": "Phụ trách quản lý bộ phận",
+        "status": "active"
+    },
+    {
+        "id": 6,
+        "name": "Phó tổng giám đốc sản xuất",
+        "code": "PTGĐSX",
+        "duty_group": "Quản lý",
+        "description": "Xử lý tài liệu hồ sơ",
+        "status": "active"
+    },
+    {
+        "id": 7,
+        "name": "Phó giám đốc nhà máy",
+        "code": "NV-SC",
+        "duty_group": "Quản lý",
+        "description": "Phụ trách quản lý bộ phận",
+    "status": "active"
+    }
+]

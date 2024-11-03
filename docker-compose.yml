@@ -1,0 +1,11 @@
+version: '3.3'
+services:
+    hrm_fe:
+        build:
+            context: .
+            dockerfile: Dockerfile
+        image: hrm_fe
+        container_name: hrm_fe
+        ports:
+            - '3000:80'
+        restart: unless-stopped

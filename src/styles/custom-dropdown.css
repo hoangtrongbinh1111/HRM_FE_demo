@@ -1,0 +1,72 @@
+.dropdown-tree div.dropdown {
+    width: 100%;
+}
+
+.dropdown-tree a {
+    width: 100%;
+    border-radius: 8px;
+    border-width: 1px;
+    --tw-border-opacity: 1;
+    border-color: rgb(224 230 237 / var(--tw-border-opacity));
+    --tw-bg-opacity: 1;
+    background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 600;
+    --tw-text-opacity: 1;
+    color: rgb(14 23 38 / var(--tw-text-opacity));
+    outline: 2px solid transparent !important;
+    outline-offset: 2px !important;
+}
+
+.dropdown-tree div.dropdown ul{
+    width: 100%;
+    box-shadow: none!important;
+}
+
+.react-dropdown-tree-select .dropdown .dropdown-trigger.arrow.bottom:after {
+    content: none!important;
+}
+
+.react-dropdown-tree-select .dropdown .dropdown-trigger.arrow.top:after {
+    content: none!important;
+}
+
+div.dropdown-content {
+    width: 220px;
+}
+
+div.dropdown-content li {
+    display: flex;
+}
+
+div.dropdown-content i {
+    font-style: normal!important;
+}
+
+.dropdown-tree div.dropdown span, .dropdown-tree div.dropdown label{
+    font-size: 12px!important;
+}
+
+.dropdown-tree div.dropdown span {
+    color: #848689!important;
+}
+
+.react-dropdown-tree-select .dropdown .dropdown-trigger {
+    overflow: unset!important;
+}
+
+.for-search {
+    border-color: rgba(224,230,237,1)!important;
+}
+
+.for-search div.dropdown {
+    width: 100%;
+    z-index: 5;
+}
+
+.react-dropdown-tree-select button {
+    font-size: 14px;
+    padding-left: 5px;
+    padding-right: 5px;
+}

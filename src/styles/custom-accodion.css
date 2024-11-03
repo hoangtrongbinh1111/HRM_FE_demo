@@ -1,0 +1,13 @@
+.custom-accordion {
+    background-color: #EBEAEA !important;
+    color: #046738 !important;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 8px;
+    padding: 16px;
+}
+.custom-content-accordion {
+    border: #DADADA 1px solid ;
+    margin-top: 10px;
+    border-radius: 8px;
+}

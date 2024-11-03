@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "name": "Bountafaibounnheuang",
+        "code": "NV01",
+        "status": "active",
+        "duty": "Phó phòng",
+        "department": "Phòng Hành chính"
+    },
+    {
+        "id": 2,
+        "name": "Khampa Sirt",
+        "duty": "Nhân viên",
+        "department": "Phòng Kỹ thuật",
+        "code": "NV02",
+        "status": "active"
+    },
+    {
+        "id": 3,
+        "name": "Phu thone",
+        "code": "NV03",
+        "duty": "Nhân viên",
+        "department": "Phòng Kỹ thuật",
+        "status": "active"
+    },
+    {
+        "id": 4,
+        "name": "Sun khăm",
+        "code": "NV04",
+        "status": "active",
+        "duty": "Lái xe",
+        "department": "Bộ phận lái xe"
+    },
+    {
+        "id": 5,
+        "name": "Suok Thi Da",
+        "code": "NV05",
+        "status": "active",
+        "duty": "Nhân viên",
+        "department": "Phòng Hành chính"
+    }
+]

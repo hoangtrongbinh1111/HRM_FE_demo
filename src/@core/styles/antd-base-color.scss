@@ -1,0 +1,182 @@
+$antd-base-color: #3b95ff !default;
+//BUTTON
+button.ant-btn {
+    background-color: $antd-base-color;
+    box-shadow: none;
+    /* Button 2 Bold */
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 171.429% */
+}
+.ant-btn-primary:not(:disabled):not(.ant-btn-disabled):hover {
+    background-color: lighten($antd-base-color, 10%);
+}
+.ant-btn-primary:not(:disabled):not(.ant-btn-disabled):active {
+    background-color: darken($antd-base-color, 10%);
+}
+.ant-btn-primary:disabled {
+    background: var(--grayscale-200, #c8cbd3);
+    border-color: var(--grayscale-200, #c8cbd3);
+    color: var(--grayscale-00, #fff);
+}
+
+//INPUT
+.ant-input:focus,
+.ant-input-focused,
+.ant-input-affix-wrapper:focus,
+.ant-input-affix-wrapper-focused {
+    box-shadow: 0 0 0 2px rgba($antd-base-color, 0.1);
+}
+
+.ant-input-affix-wrapper:focus,
+.ant-input-affix-wrapper-focused {
+    .ant-input-prefix {
+        color: $antd-base-color;
+    }
+}
+
+.ant-input-affix-wrapper:focus,
+.ant-input-affix-wrapper-focused,
+.ant-input-affix-wrapper:hover,
+.ant-input-affix-wrapper:not(.ant-input-affix-wrapper-disabled):hover,
+.ant-input:hover,
+.ant-input:focus,
+.ant-input-search .ant-input:hover,
+.ant-input-search .ant-input:focus {
+    border-inline-start-color: $antd-base-color;
+    border-color: $antd-base-color;
+}
+
+//LINK
+a {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: $antd-base-color;
+    &:hover {
+        color: lighten($antd-base-color, 10%);
+    }
+}
+
+//CHECKBOX
+.ant-checkbox-checked .ant-checkbox-inner {
+    border-inline-start-color: $antd-base-color !important;
+    background-color: $antd-base-color !important;
+    border-color: $antd-base-color !important;
+}
+.ant-checkbox-wrapper:hover .ant-checkbox-inner,
+.ant-checkbox:hover .ant-checkbox-inner,
+.ant-checkbox-input:focus + .ant-checkbox-inner {
+    border-color: $antd-base-color !important;
+}
+.ant-checkbox-indeterminate .ant-checkbox-inner::after {
+    background-color: $antd-base-color !important;
+}
+.ant-checkbox-checked:after {
+    border: none;
+}
+//SELECT
+.ant-select-dropdown
+    .ant-select-item-option-selected:not(.ant-select-item-option-disabled)
+    .ant-select-item-option-state {
+    color: $antd-base-color;
+}
+
+.ant-select-focused.ant-select:not(.ant-select-disabled):not(.ant-select-customize-input):not(
+        .ant-pagination-size-changer
+    )
+    .ant-select-selector {
+    border-color: $antd-base-color;
+    box-shadow: 0 0 0 2px rgba($antd-base-color, 0.1);
+}
+.ant-select:not(.ant-select-disabled):not(.ant-select-customize-input):not(.ant-pagination-size-changer):hover
+    .ant-select-selector {
+    border-color: $antd-base-color;
+}
+.ant-select-dropdown .ant-select-item-option-selected:not(.ant-select-item-option-disabled) {
+    background-color: rgba($antd-base-color, 0.1);
+}
+
+//RADIO
+.ant-radio-wrapper:hover .ant-radio-wrapper,
+.ant-radio-wrapper:hover .ant-radio-inner {
+    border-color: $antd-base-color;
+}
+.ant-radio-wrapper .ant-radio-checked .ant-radio-inner {
+    border-color: $antd-base-color;
+    background-color: $antd-base-color;
+}
+.ant-radio-wrapper .ant-radio-disabled .ant-radio-inner {
+    background-color: rgba(0, 0, 0, 0.04);
+    border-color: #d9d9d9;
+    cursor: not-allowed;
+}
+
+//SPIN
+.ant-spin-nested-loading > div > .ant-spin {
+    color: $antd-base-color;
+    max-height: unset;
+}
+#nprogress .bar {
+    background: $antd-base-color !important;
+}
+
+//DATE PICKER
+.ant-picker-dropdown .ant-picker-cell-in-view.ant-picker-cell-in-range.ant-picker-cell-range-hover::before,
+.ant-picker-dropdown .ant-picker-cell-in-view.ant-picker-cell-in-range.ant-picker-cell-range-hover-start::before,
+.ant-picker-dropdown .ant-picker-cell-in-view.ant-picker-cell-in-range.ant-picker-cell-range-hover-end::before,
+.ant-picker-dropdown .ant-picker-cell-in-view.ant-picker-cell-range-start.ant-picker-cell-range-hover::before,
+.ant-picker-dropdown .ant-picker-cell-in-view.ant-picker-cell-range-end.ant-picker-cell-range-hover::before,
+.ant-picker-dropdown
+    .ant-picker-cell-in-view.ant-picker-cell-range-start:not(
+        .ant-picker-cell-range-start-single
+    ).ant-picker-cell-range-hover-start::before,
+.ant-picker-dropdown
+    .ant-picker-cell-in-view.ant-picker-cell-range-end:not(
+        .ant-picker-cell-range-end-single
+    ).ant-picker-cell-range-hover-end::before,
+.ant-picker-panel
+    > :not(.ant-picker-date-panel)
+    .ant-picker-dropdown
+    .ant-picker-cell-in-view.ant-picker-cell-in-range.ant-picker-cell-range-hover-start::before,
+.ant-picker-panel
+    > :not(.ant-picker-date-panel)
+    .ant-picker-dropdown
+    .ant-picker-cell-in-view.ant-picker-cell-in-range.ant-picker-cell-range-hover-end::before,
+.ant-picker-dropdown .ant-picker-cell-in-view.ant-picker-cell-in-range::before,
+.ant-picker-dropdown
+    .ant-picker-cell-in-view.ant-picker-cell-range-start:not(.ant-picker-cell-range-start-single)::before,
+.ant-picker-dropdown .ant-picker-cell-in-view.ant-picker-cell-range-end:not(.ant-picker-cell-range-end-single)::before {
+    background: rgba($antd-base-color, 0.1);
+}
+.ant-picker-dropdown
+    .ant-picker-time-panel-column
+    > li.ant-picker-time-panel-cell-selected
+    .ant-picker-time-panel-cell-inner {
+    background: rgba($antd-base-color, 0.1);
+}
+.ant-picker-range .ant-picker-active-bar {
+    background: $antd-base-color;
+}
+.ant-picker:hover,
+.ant-picker-focused {
+    border-color: $antd-base-color;
+}
+.ant-picker-focused {
+    border-color: $antd-base-color;
+    box-shadow: 0 0 0 2px rgba($antd-base-color, 0.1);
+}
+.ant-picker .ant-picker-input > input:hover {
+    border-color: $antd-base-color;
+}
+.ant-picker-dropdown .ant-picker-cell-in-view.ant-picker-cell-today .ant-picker-cell-inner::before {
+    border-color: $antd-base-color;
+}
+.ant-picker-dropdown .ant-picker-cell-in-view.ant-picker-cell-selected .ant-picker-cell-inner,
+.ant-picker-dropdown .ant-picker-cell-in-view.ant-picker-cell-range-start .ant-picker-cell-inner,
+.ant-picker-dropdown .ant-picker-cell-in-view.ant-picker-cell-range-end .ant-picker-cell-inner {
+    background: $antd-base-color;
+}

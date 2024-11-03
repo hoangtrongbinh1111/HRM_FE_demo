@@ -1,0 +1,30 @@
+[
+    {
+        "id": 0,
+        "name": "Tổng giám đốc",
+        "description": "",
+        "avatar": "/assets/images/profile-26.jpeg",
+        "subordinates": [1,2,3]
+    },
+    {
+        "id": 1,
+        "name": "P.Tổng giám đốc đối ngoại",
+        "description": "",
+        "avatar": "/assets/images/profile-26.jpeg",
+        "subordinates": []
+    },
+     {
+        "id": 2,
+        "name": "P.Tổng giám đốc giám đốc các dự án",
+        "description": "",
+        "avatar": "/assets/images/profile-26.jpeg",
+        "subordinates": []
+    },
+     {
+        "id": 3,
+        "name": "P.Tổng giám đốc",
+        "description": "P.GĐ dự án phụ trác kỹ thuật",
+        "avatar": "/assets/images/profile-26.jpeg",
+        "subordinates": []
+    }
+]

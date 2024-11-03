@@ -1,0 +1,53 @@
+[
+    {
+        "id": 1,
+        "name": "TRẦN NAM TRUNG",
+        "code": "NM026",
+        "faceid": "FAC0000589",
+        "phone": "0392989903",
+        "time": "29/2/2024 23:35:17",
+        "temp": "0",
+        "device": "Face chấm công Vắng Tắt"
+
+    },
+    {
+        "id": 2,
+        "name": "NGÔ PHI RIN",
+        "code": "DP05",
+        "faceid": "FAC0000547",
+        "phone": "0777424119",
+        "time": "29/2/2024 23:34:21",
+        "temp": "0",
+        "device": "Face chấm công Vắng Tắt"
+    },
+    {
+        "id": 3,
+        "name": "NGUYỄN THẾ NGHĨA",
+        "code": "DP01",
+        "faceid": "FAC0000543",
+        "phone": "0328912819",
+        "time": "29/2/2024 23:34:13",
+        "temp": "0",
+        "device": "Face chấm công Vắng Tắt"
+    },
+    {
+        "id": 4,
+        "name": "NGUYỄN ĐÌNH PHONG",
+        "code": "DP10",
+        "faceid": "FAC0000552",
+        "phone": "0986126135",
+        "time": "29/2/2024 23:34:8",
+        "temp": "0",
+        "device": "Face chấm công Vắng Tắt"
+    },
+    {
+        "id": 5,
+        "name": "NGUYỄN VĂN HỮU",
+        "code": "ANNM02",
+        "faceid": "FAC0000539",
+        "phone": "0968878358",
+        "time": "29/2/2024 23:31:27",
+        "temp": "0",
+        "device": "Face chấm công Vắng Tắt"
+    }
+]
